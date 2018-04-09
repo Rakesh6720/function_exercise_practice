@@ -21,6 +21,7 @@ function getValues(){
 function convertValuesToNumbers(){
 	let numberHour=Number(hoursInputted);
 	let numberPay=Number(payInputted);
+	return numberHour, numberPay;
 }
 	
 function evaluateInputs(){
